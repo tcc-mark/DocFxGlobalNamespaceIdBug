@@ -1,0 +1,131 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/SourceCode/DocFxGlobalNamespaceIdBug/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/projectA/SharedProjects.TestClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/projectA/SharedProjects.TestClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/projectA/SharedProjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/projectA/SharedProjects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/projectA/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/projectA/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/projectA/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/projectB/SharedProjects.TestClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/projectB/SharedProjects.TestClass.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/projectB/SharedProjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/projectB/SharedProjects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/projectB/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/projectB/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/projectB/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

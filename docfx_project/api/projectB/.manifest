@@ -1,0 +1,4 @@
+{
+  "SharedProjects": "SharedProjects.yml",
+  "SharedProjects.TestClass": "SharedProjects.TestClass.yml"
+}

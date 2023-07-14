@@ -1,0 +1,9 @@
+- name: Articles
+  href: articles/
+- name: API Documentation
+  dropdown: true
+  items:
+  - name: Project A
+    href: api/projectA/
+  - name: ProjectB
+    href: api/projectB/

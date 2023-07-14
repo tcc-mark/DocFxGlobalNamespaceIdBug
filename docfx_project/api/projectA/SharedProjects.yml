@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SharedProjects
+  commentId: N:SharedProjects
+  id: SharedProjects
+  children:
+  - SharedProjects.TestClass
+  langs:
+  - csharp
+  - vb
+  name: SharedProjects
+  nameWithType: SharedProjects
+  fullName: SharedProjects
+  type: Namespace
+  assemblies:
+  - ProjectA
+references:
+- uid: SharedProjects.TestClass
+  commentId: T:SharedProjects.TestClass
+  href: SharedProjects.TestClass.html
+  name: TestClass
+  nameWithType: TestClass
+  fullName: SharedProjects.TestClass

@@ -1,0 +1,15 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: SharedProjects
+  name: SharedProjects
+  href: api/projectA/SharedProjects.html
+  commentId: N:SharedProjects
+  fullName: SharedProjects
+  nameWithType: SharedProjects
+- uid: SharedProjects.TestClass
+  name: TestClass
+  href: api/projectA/SharedProjects.TestClass.html
+  commentId: T:SharedProjects.TestClass
+  fullName: SharedProjects.TestClass
+  nameWithType: TestClass

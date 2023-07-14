@@ -1,0 +1,61 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "ProjectA/ProjectA.csproj"
+          ],
+          "src": ".."
+        }
+      ],
+      "dest": "api/projectA",
+      "globalNamespaceId": "projectA"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "ProjectB/ProjectB.csproj"
+          ],
+          "src": ".."
+        }
+      ],
+      "dest": "api/projectB",
+      "globalNamespaceId": "projectB"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/projectA/*.yml",
+          "api/projectB/*.yml",
+          "articles/**/*.md",
+          "articles/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "**.png",
+          "**.jpg",
+          "articles/cli-help.txt"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "modern"
+    ],
+    "noLangKeyword": false,
+    "keepFileLink": false
+  }
+}
